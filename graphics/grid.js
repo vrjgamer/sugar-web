@@ -17,7 +17,7 @@ define(function () {
             canvas.height = window.innerHeight;
 
             var ctx = canvas.getContext("2d");
-            ctx.strokeStyle = "#00FFFF";
+            ctx.strokeStyle = "#00FFEE";
 
             var subcellsVertical = window.innerHeight / subcellSize;
             for (i = 0; i < subcellsVertical; i++) {
